@@ -3,7 +3,8 @@
 
 // Data pengguna disimpan dalam array
 $users = [
-    ["username" => "user", "password" => "user123", "role" => "user"]
+    ["username" => "user", "password" => "user123", "role" => "user"],
+    ["username" => "cai", "password" => "sudirman", "role" => "user"],
 ];
 
 $error = "";
