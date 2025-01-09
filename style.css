@@ -23,9 +23,9 @@ body {
   transition: background-color 0.3s;
 }
 
-.card.greyed-out {
+/* .card.greyed-out {
   background-color: gray;
-}
+} */
 
 .card img {
   width: 100%;
@@ -59,7 +59,7 @@ body {
   transition: background-color 0.3s;
 }
 
-.btn-pesan:disabled {
+/* .btn-pesan:disabled {
   background-color: #d3d3d3;
   cursor: not-allowed;
-}
+} */

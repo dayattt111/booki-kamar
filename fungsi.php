@@ -19,5 +19,5 @@ $bookinKamar = ProsesBooking($_POST, $_POST['booked_rooms'] ?? [
 list($total_kamar, $kamar_booking, $kamar_kosong) = getKamarStats($kamar, $bookinKamar);
 ?>
 
-//get put,post sama delete
-//post untuk mengiri sebuah data
+<!-- get put,post sama delete
+post untuk mengiri sebuah data -->

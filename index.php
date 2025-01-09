@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 
 // Data pengguna disimpan dalam array
 $users = [
@@ -8,7 +8,7 @@ $users = [
 
 $error = "";
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 

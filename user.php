@@ -8,6 +8,11 @@ include "fungsi.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Kamar</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .card.greyed-out {
+        background-color: gray;
+    }
+    </style>
 </head>
 <body>
     <h1 style="text-align: center;">Daftar Kamar</h1>
