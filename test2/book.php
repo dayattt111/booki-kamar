@@ -1,6 +1,7 @@
 <?php
 include 'data.php'; // Array kamar dan booking
 
+
 if (isset($_GET['index'])) {
     $index = $_GET['index'];
     $room = $rooms[$index];

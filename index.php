@@ -1,6 +1,4 @@
 <?php
-// session_start();
-
 // Data pengguna disimpan dalam array
 $users = [
     ["username" => "user", "password" => "user123", "role" => "user"],

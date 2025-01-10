@@ -13,7 +13,7 @@
         "Produk B",
         "deskripsi" => "Deskripsi produk B.",
         "harga" => 12000,
-        "gambar" => "./asset/k1.jpg"
+        "gambar" => "./asset/k1.jpg",
     ],
     ["id" => 3, "nama" => "Produk C", "deskripsi" => "Deskripsi produk C.", "harga" => 22000, "gambar" => "./asset/k2.jpg"],
     ["id" => 4, "nama" => "Produk D", "deskripsi" => "Deskripsi produk D.", "harga" => 32000, "gambar" => "./asset/k3.jpg"],

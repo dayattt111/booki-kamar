@@ -12,9 +12,35 @@ include "fungsi.php";
         .card.greyed-out {
         background-color: gray;
     }
+    .hero {
+    background: url('./asset/k8.jpg')
+    no-repeat center center/cover;
+    height: 700px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    /* margin-bottom: 20px; */
+}
+    .hero p {
+    font-size: 1.2rem;
+    /* margin-bottom: 30px; */
+}
     </style>
 </head>
 <body>
+
+    <section class="hero">
+        <div class="center">
+            <h1 class="">Enjoy Your Holiday</h1>
+            <p>Welcome to Makassar Rooms, where comfort meets luxury.</p>
+            <a href="#adminPanel" class="btn">Lihat Kamar</a>
+        </div>
+    </section>
+
     <h1 style="text-align: center;">Daftar Kamar</h1>
     <!-- menampilkan data kamar -->
     <div class="room-stats" style="text-align: center; margin-bottom: 20px;">
@@ -37,7 +63,7 @@ include "fungsi.php";
                             <input type="hidden" name="booked_rooms[]" value="<?= $room_id ?>">
                         <?php endforeach; ?>
                         <button class="btn-pesan" type="submit" name="pesan" <?= in_array($item['id'], $bookinKamar) ? 'disabled' : '' ?>>
-                            Pesan Kamar
+                            Pesan Kamar 
                         </button>
                     </form>
                 </div>

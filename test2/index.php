@@ -1,5 +1,6 @@
 <?php 
-    include 'data.php'
+    include 'data.php';
+    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
