@@ -1,7 +1,9 @@
 <?php
-// session_start();
+session_start();
 
 // Data pengguna disimpan dalam array
+
+//ada 3 key : username, password, role
 $users = [
     ["username" => "user", "password" => "user123", "role" => "user"],
     ["username" => "cai", "password" => "sudirman", "role" => "user"],
@@ -13,10 +15,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
+    include "data.php";
+
     foreach ($users as $user) {
         if ($user['username'] === $username && $user['password'] === $password) {
             $_SESSION['role'] = $user['role'];
             if ($user['role'] === 'user') {
+                session_start();
+                $_SESSION['kamar']=$kamar;
                 header("Location: user.php");
                 exit;
             }
